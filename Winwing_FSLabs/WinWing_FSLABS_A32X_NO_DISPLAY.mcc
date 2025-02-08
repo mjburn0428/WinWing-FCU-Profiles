@@ -4,7 +4,7 @@
     <config guid="37ad9a02-5896-4f41-9b9a-e81b8d8e3741">
       <active>true</active>
       <description>INIT</description>
-      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <source type="Variable" varType="number" varName="IsInitDoneVar" varExpression="$" />
         <test type="Float" value="1" />
         <modifiers />
@@ -22,7 +22,7 @@
     <config guid="dd51b277-49ab-41c1-8873-a1201ca3253f">
       <active>true</active>
       <description>FSLabs A320 - FCU - APPR</description>
-      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <source type="FSUIPC" offset="0xA107" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" />
         <test type="Float" value="1" />
         <modifiers />
@@ -34,7 +34,7 @@
     <config guid="3d514f4f-b21d-450b-ab65-254260f48217">
       <active>true</active>
       <description>FSLabs A320 - FCU - LOC</description>
-      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <source type="FSUIPC" offset="0xA102" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" />
         <test type="Float" value="1" />
         <modifiers />
@@ -46,7 +46,7 @@
     <config guid="eed0e33b-d274-4b02-bd92-2aa53d9e67b6">
       <active>true</active>
       <description>FSLabs A320 - FCU - AP1</description>
-      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <source type="FSUIPC" offset="0xA103" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" />
         <test type="Float" value="1" />
         <modifiers />
@@ -58,7 +58,7 @@
     <config guid="08eac642-990b-4e2b-9d86-1e065105514c">
       <active>true</active>
       <description>FSLabs A320 - FCU - AP2</description>
-      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <source type="FSUIPC" offset="0xA104" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" />
         <test type="Float" value="1" />
         <modifiers />
@@ -70,7 +70,7 @@
     <config guid="dee51aff-42dd-411e-9a7d-2bb6f6ed7815">
       <active>true</active>
       <description>FSLabs A320 - FCU - A/THR</description>
-      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <source type="FSUIPC" offset="0xA105" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" />
         <test type="Float" value="1" />
         <modifiers />
@@ -82,7 +82,7 @@
     <config guid="04b4f47e-95b8-4c42-822c-952123b4106c">
       <active>true</active>
       <description>FSLabs A320 - FCU - EXPED</description>
-      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <source type="FSUIPC" offset="0xA106" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" />
         <test type="Float" value="1" />
         <modifiers />
@@ -94,11 +94,11 @@
     <config guid="9c90f249-c34a-4e38-9783-d9ac85183485">
       <active>true</active>
       <description>FSLabs A320 - EFIS L - FD</description>
-      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-        <source type="FSUIPC" offset="0xA107" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" />
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0xA108" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" />
         <test type="Float" value="1" />
         <modifiers />
-        <display type="Output" serial="WINWING FCU + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" trigger="normal" pin="FD Left" pinBrightness="255" />
+        <display type="Output" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" trigger="normal" pin="FD Left" pinBrightness="255" />
         <preconditions />
         <configrefs />
       </settings>
@@ -106,8 +106,8 @@
     <config guid="67af05cc-870e-4c1e-a3ab-95a6d3f07902">
       <active>true</active>
       <description>FSLabs A320 - EFIS L - LS</description>
-      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-        <source type="FSUIPC" offset="0xA108" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" />
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0xA109" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" />
         <test type="Float" value="1" />
         <modifiers />
         <display type="Output" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" trigger="normal" pin="LS Left" pinBrightness="255" />
@@ -118,11 +118,11 @@
     <config guid="9e813cdf-3e26-4ca1-ad3b-87d797dcf7d1">
       <active>true</active>
       <description>FSLabs A320 - EFIS L - CSTR</description>
-      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-        <source type="FSUIPC" offset="0xA109" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" />
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0xA110" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" />
         <test type="Float" value="1" />
         <modifiers />
-        <display type="Output" serial="WINWING FCU + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" trigger="normal" pin="CSTR Left" pinBrightness="255" />
+        <display type="Output" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" trigger="normal" pin="CSTR Left" pinBrightness="255" />
         <preconditions />
         <configrefs />
       </settings>
@@ -130,11 +130,11 @@
     <config guid="3b241020-56e6-4ded-9182-83848fcf767f">
       <active>true</active>
       <description>FSLabs A320 - EFIS L - WPT</description>
-      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-        <source type="FSUIPC" offset="0xA110" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" />
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0xA111" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" />
         <test type="Float" value="1" />
         <modifiers />
-        <display type="Output" serial="WINWING FCU + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" trigger="normal" pin="WPT Left" pinBrightness="255" />
+        <display type="Output" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" trigger="normal" pin="WPT Left" pinBrightness="255" />
         <preconditions />
         <configrefs />
       </settings>
@@ -142,11 +142,11 @@
     <config guid="a7c5ef9e-91aa-43a2-9d9e-451b537ee470">
       <active>true</active>
       <description>FSLabs A320 - EFIS L - VOR.D</description>
-      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-        <source type="FSUIPC" offset="0xA111" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" />
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0xA112" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" />
         <test type="Float" value="1" />
         <modifiers />
-        <display type="Output" serial="WINWING FCU + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" trigger="normal" pin="VORD Left" pinBrightness="255" />
+        <display type="Output" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" trigger="normal" pin="VORD Left" pinBrightness="255" />
         <preconditions />
         <configrefs />
       </settings>
@@ -154,11 +154,11 @@
     <config guid="0a9c4330-2f63-4ea5-8ecc-3fadfbc41f07">
       <active>true</active>
       <description>FSLabs A320 - EFIS L - NDB</description>
-      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-        <source type="FSUIPC" offset="0xA112" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" />
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0xA113" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" />
         <test type="Float" value="1" />
         <modifiers />
-        <display type="Output" serial="WINWING FCU + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" trigger="normal" pin="NDB Left" pinBrightness="255" />
+        <display type="Output" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" trigger="normal" pin="NDB Left" pinBrightness="255" />
         <preconditions />
         <configrefs />
       </settings>
@@ -166,8 +166,8 @@
     <config guid="a679c0a9-cd95-49e5-bcc7-0e890164960f">
       <active>true</active>
       <description>FSLabs A320 - EFIS L - ARPT</description>
-      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-        <source type="FSUIPC" offset="0xA113" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" />
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0xA114" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" />
         <test type="Float" value="1" />
         <modifiers />
         <display type="Output" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" trigger="normal" pin="ARPT Left" pinBrightness="255" />
@@ -178,7 +178,7 @@
     <config guid="30fa1f4d-de82-4e6c-9713-ad432b1a8f07">
       <active>true</active>
       <description>INIT DONE</description>
-      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <source type="Variable" varType="number" varName="IsInitDoneVar" varExpression="$" />
         <test type="Float" value="1" />
         <modifiers />
@@ -198,7 +198,7 @@
     <config guid="2130ff5e-50b2-4a32-bb70-ec7696148c84">
       <active>true</active>
       <description>FSLabs A320 - FCU - SPD &lt;&gt; MACH</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 1" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 1" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71178" />
         </button>
@@ -209,7 +209,7 @@
     <config guid="81a35024-3eae-4ac7-a93c-3d051754cea7">
       <active>true</active>
       <description>FSLabs A320 - FCU - SPD PUSH</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 12" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 12" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71214" />
         </button>
@@ -220,7 +220,7 @@
     <config guid="c33133eb-627a-4de8-8bcb-717a10eb53a4">
       <active>true</active>
       <description>FSLabs A320 - FCU - SPD PULL</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 13" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 13" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71215" />
         </button>
@@ -231,7 +231,7 @@
     <config guid="fe8f3f38-1525-4356-90f4-5c47e0ec3d8f">
       <active>true</active>
       <description>FSLabs A320 - FCU - SPD ENCODER</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 11" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 11" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71226" />
         </button>
@@ -242,7 +242,7 @@
     <config guid="b8fda1ee-454a-4460-8a1d-8c87b8d82ee1">
       <active>true</active>
       <description>FSLabs A320 - FCU - SPD ENCODER Decrease</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 10" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 10" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71227" />
         </button>
@@ -253,7 +253,7 @@
     <config guid="08007dc9-31ae-4388-b0af-28750bf2e903">
       <active>true</active>
       <description>FSLabs A320 - FCU - HDG PULL</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 17" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 17" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71229" />
         </button>
@@ -264,7 +264,7 @@
     <config guid="d8659e23-9af3-4808-8456-7b9914d0b20a">
       <active>true</active>
       <description>FSLabs A320 - FCU - HDG PUSH</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 16" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 16" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71228" />
         </button>
@@ -275,7 +275,7 @@
     <config guid="73407553-1e0f-4609-b4fa-f3690ba7cdbe">
       <active>true</active>
       <description>FSLabs A320 - FCU - HDG ENCODER</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 14" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 14" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71234" />
         </button>
@@ -286,7 +286,7 @@
     <config guid="f109a592-703b-4fea-9460-9762eb7fc985">
       <active>true</active>
       <description>FSLabs A320 - FCU - HDG ENCODER INC</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 15" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 15" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71233" />
         </button>
@@ -297,7 +297,7 @@
     <config guid="cacd3a64-ea93-485a-9635-5e1059117d79">
       <active>true</active>
       <description>FSLabs A320 - FCU - LOC</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 2" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 2" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71182" />
         </button>
@@ -308,7 +308,7 @@
     <config guid="7a178f65-d577-4e3d-b22c-4e6b9534428f">
       <active>true</active>
       <description>FSLabs A320 - FCU - HDG TRK &lt;&gt; VS FPA</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 3" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 3" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71186" />
           <onRelease type="MSFS2020CustomInputAction" command="(L:S_FCU_HDGVS_TRKFPA) ++ (&gt;L:S_FCU_HDGVS_TRKFPA)" presetId="9385fc71-e821-42ff-a298-303ea3095351" />
@@ -320,7 +320,7 @@
     <config guid="11bb8d3e-1fe8-436e-8874-8c48557db482">
       <active>true</active>
       <description>FSLabs A320 - FCU - AP1</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 4" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 4" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71190" />
         </button>
@@ -331,7 +331,7 @@
     <config guid="4e8ca36d-c19d-4dd0-b7ed-ca0026ff6b9d">
       <active>true</active>
       <description>FSLabs A320 - FCU - AP2</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 5" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 5" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71194" />
         </button>
@@ -342,7 +342,7 @@
     <config guid="7dcfc95e-0817-4215-8186-a1222561f6a3">
       <active>true</active>
       <description>FSLabs A320 - FCU - A/THR</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 6" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 6" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71198" />
         </button>
@@ -353,7 +353,7 @@
     <config guid="d05b6d76-826b-453c-a912-3b1d5dc52e8e">
       <active>true</active>
       <description>FSLabs A320 - FCU - ALTITUDE SCALE 1000</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 27" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 27" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71243" />
           <onRelease type="EventIdInputAction" eventId="66587" param="71243" />
@@ -365,7 +365,7 @@
     <config guid="7975c989-717c-4914-932f-f153a3489db7">
       <active>true</active>
       <description>FSLabs A320 - FCU - ALTITUDE SCALE 100</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 26" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 26" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71242" />
           <onRelease type="EventIdInputAction" eventId="66587" param="71242" />
@@ -377,7 +377,7 @@
     <config guid="4c6b2c11-c792-4e7f-a69e-7c001494793d">
       <active>true</active>
       <description>FSLabs A320 - FCU - ALTITUDE PULL</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 21" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 21" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71250" />
         </button>
@@ -388,7 +388,7 @@
     <config guid="3cfe664b-0b28-4de7-a628-62b45d5464ec">
       <active>true</active>
       <description>FSLabs A320 - FCU - ALTITUDE PUSH</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 20" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 20" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71249" />
         </button>
@@ -399,7 +399,7 @@
     <config guid="39bdae42-1373-4775-b627-deca24c22adc">
       <active>true</active>
       <description>FSLabs A320 - FCU - ALTITUDE ENCODER</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 18" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 18" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71262" />
         </button>
@@ -410,7 +410,7 @@
     <config guid="581d854d-2568-46ab-b946-c29707df9e72">
       <active>true</active>
       <description>FSLabs A320 - FCU - ALTITUDE ENCODER INC</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 19" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 19" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71261" />
         </button>
@@ -421,7 +421,7 @@
     <config guid="e9159ea7-2147-413b-8c7a-9949f717f141">
       <active>true</active>
       <description>FSLabs A320 - FCU - EXPED</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 7" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 7" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71202" />
         </button>
@@ -432,7 +432,7 @@
     <config guid="d118413f-442a-49b2-8e84-87a47d7b6292">
       <active>true</active>
       <description>FSLabs A320 - EFIS - FD</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 33" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 33" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71035" />
         </button>
@@ -443,7 +443,7 @@
     <config guid="a79c6883-b7ae-4a41-ae85-641d4faa4ab9">
       <active>true</active>
       <description>FSLabs A320 - EFIS - LS</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 34" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 34" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71039" />
         </button>
@@ -454,7 +454,7 @@
     <config guid="9f2a4d9f-5089-46c2-90b6-1a68b46eb5cd">
       <active>true</active>
       <description>FSLabs A320 - EFIS - CSTR</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 35" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 35" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71043" />
         </button>
@@ -465,7 +465,7 @@
     <config guid="36c23de9-25f0-45d8-b8cd-e9f7efdabf1e">
       <active>true</active>
       <description>FSLabs A320 - EFIS - WPT</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 36" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 36" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71047" />
         </button>
@@ -476,7 +476,7 @@
     <config guid="8bfd9754-6685-4db1-a83b-fc7e92d59c84">
       <active>true</active>
       <description>FSLabs A320 - EFIS - VORD</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 37" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 37" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71051" />
         </button>
@@ -487,7 +487,7 @@
     <config guid="5f397246-0f5b-4386-808c-211e5b12c3b3">
       <active>true</active>
       <description>FSLabs A320 - EFIS - NDB</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 38" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 38" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71055" />
         </button>
@@ -498,7 +498,7 @@
     <config guid="0f21ecf6-16af-4064-b665-fc0c314966fd">
       <active>true</active>
       <description>FSLabs A320 - EFIS - ARPT</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 39" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 39" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71059" />
         </button>
@@ -509,7 +509,7 @@
     <config guid="164776ac-70e4-4b71-9733-878f7f007c38">
       <active>true</active>
       <description>FSLabs A320 - FCU - METRIC ALT</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 8" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 8" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71206" />
         </button>
@@ -520,7 +520,7 @@
     <config guid="980e67ae-bd7b-4f82-9ca8-d833122a0e45">
       <active>true</active>
       <description>FSLabs A320 - FCU - VS PUSH</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 24" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 24" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71263" />
         </button>
@@ -531,7 +531,7 @@
     <config guid="fed9c264-46d1-4319-a590-04fabec21997">
       <active>true</active>
       <description>FSLabs A320 - FCU - VS PULL</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 25" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 25" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71264" />
         </button>
@@ -542,7 +542,7 @@
     <config guid="c0e90bd3-c783-4c89-a221-38bfb8167e6b">
       <active>true</active>
       <description>FSLabs A320 - FCU - APPR</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 9" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 9" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71210" />
         </button>
@@ -553,7 +553,7 @@
     <config guid="d33c3d63-9f10-45b4-9dea-3e93de8ead38">
       <active>true</active>
       <description>FSLabs A320 - FCU - VS SPD ENCODER </description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 22" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 22" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71276" />
         </button>
@@ -564,7 +564,7 @@
     <config guid="3d0711fb-e0b9-41f9-a9e1-aa4f236fe0eb">
       <active>true</active>
       <description>FSLabs A320 - FCU - VS SPD ENCODER</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 23" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 23" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71275" />
         </button>
@@ -575,7 +575,7 @@
     <config guid="bcfa6868-b1f8-4e1a-8b58-efd8776df821">
       <active>true</active>
       <description>FSLabs A320 - EFIS L - BARO in Hg</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 44" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 44" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71014" />
         </button>
@@ -586,7 +586,7 @@
     <config guid="ee95091d-70a5-45d5-af04-441d9dd8ffc3">
       <active>true</active>
       <description>FSLabs A320 - EFIS L - BARO hPa</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 45" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 45" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71015" />
         </button>
@@ -597,7 +597,7 @@
     <config guid="327a09b9-06fd-47dc-89c5-4b51e164c406">
       <active>true</active>
       <description>FSLabs A320 - EFIS L - BARO</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 43" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 43" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71012" />
         </button>
@@ -608,7 +608,7 @@
     <config guid="acc9870b-5496-49d5-b314-49296b6a12d2">
       <active>true</active>
       <description>FSLabs A320 - EFIS L - BARO DEC</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 42" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 42" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71013" />
         </button>
@@ -619,7 +619,7 @@
     <config guid="2755fb5d-1a6c-4ae5-b7fa-1b0e95fac4dc">
       <active>true</active>
       <description>FSLabs A320 - EFIS L - BARO PUSH</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 40" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 40" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71007" />
         </button>
@@ -630,7 +630,7 @@
     <config guid="6afb1608-5095-4de9-976a-038b81b96c4d">
       <active>true</active>
       <description>FSLabs A320 - EFIS L - BARO PULL</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 41" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 41" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71008" />
         </button>
@@ -641,7 +641,7 @@
     <config guid="8bc36fe0-a2f8-4533-810e-8361f2e99a5b">
       <active>true</active>
       <description>FSLabs A320 - EFIS L - ND LS Left</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 46" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 46" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71021" />
         </button>
@@ -652,7 +652,7 @@
     <config guid="916a9183-ca90-48e1-838a-7c882457a74e">
       <active>true</active>
       <description>FSLabs A320 - EFIS L - ND VOR</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 47" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 47" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71022" />
         </button>
@@ -663,7 +663,7 @@
     <config guid="4b3e06ca-ab4f-4698-8354-fd96e8c0233f">
       <active>true</active>
       <description>FSLabs A320 - EFIS L - ND NAV</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 48" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 48" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71022" />
         </button>
@@ -674,7 +674,7 @@
     <config guid="4f2b95fd-e93b-4bdc-a962-bc1aa135da0f">
       <active>true</active>
       <description>FSLabs A320 - EFIS L - ND ARC</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 49" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 49" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71022" />
         </button>
@@ -685,7 +685,7 @@
     <config guid="d9c89fab-2373-4eae-8935-144425f19af0">
       <active>true</active>
       <description>FSLabs A320 - EFIS L - ND PLAN</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 50" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 50" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71022" />
         </button>
@@ -696,7 +696,7 @@
     <config guid="e79ad5c1-f211-455c-a404-3cad9c9be724">
       <active>true</active>
       <description>FSLabs A320 - EFIS L - RANGE 10</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 51" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 51" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71028" />
         </button>
@@ -707,7 +707,7 @@
     <config guid="4867021b-d5b7-4ff8-8b7d-3aeb2c08ae99">
       <active>true</active>
       <description>FSLabs A320 - EFIS L - RANGE 20</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 52" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 52" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71287" />
         </button>
@@ -718,7 +718,7 @@
     <config guid="4ccaec38-2cfb-458c-b90b-e5ebd875f715">
       <active>true</active>
       <description>FSLabs A320 - EFIS L - RANGE 40</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 53" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 53" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71288" />
         </button>
@@ -729,7 +729,7 @@
     <config guid="a7338506-6530-4964-8ec8-603cd4750171">
       <active>true</active>
       <description>FSLabs A320 - EFIS L - RANGE 80</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 54" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 54" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71289" />
         </button>
@@ -740,7 +740,7 @@
     <config guid="01a33709-919e-4af6-81f5-f0ba03c552b5">
       <active>true</active>
       <description>FSLabs A320 - EFIS L - RANGE 160</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 55" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 55" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71290" />
         </button>
@@ -751,7 +751,7 @@
     <config guid="bd00048a-5f40-464a-b73e-6c4f31dbc1b4">
       <active>true</active>
       <description>FSLabs A320 - EFIS L - RANGE 320</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.0, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 56" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.2.1, Culture=neutral, PublicKeyToken=null" serial="WINWING FCU-32 + EFIS-32L / JS-f062bb20-8ff0-11ef-8001-444553540000" name="Button 56" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="EventIdInputAction" eventId="66587" param="71291" />
         </button>
