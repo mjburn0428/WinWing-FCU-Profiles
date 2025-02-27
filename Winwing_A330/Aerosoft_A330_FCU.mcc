@@ -1,5 +1,4 @@
-# Define the Mobiflight .mcc XML structure based on the updated Lua script
-mobiflight_xml = """<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <MobiflightConnector>
   <outputs>
     <config guid="a1b2c3d4-1234-5678-9abc-def012345678">
